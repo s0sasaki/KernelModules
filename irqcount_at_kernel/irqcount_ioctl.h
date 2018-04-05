@@ -8,9 +8,9 @@
 #include <linux/ioctl.h>
 
 struct ioctl_cmd {
-	unsigned int reg;
-	unsigned int offset;
-	unsigned int val;
+    unsigned int reg;
+    unsigned int offset;
+    unsigned int val;
 };
 
 #define IOC_MAGIC 'd'
